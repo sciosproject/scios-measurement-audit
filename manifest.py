@@ -73,7 +73,11 @@ def sha256(path):
 
 def walk():
     for base, dirs, files in os.walk(ROOT):
-        dirs[:] = [d for d in dirs if d != "__pycache__"]
+        # 2026-08-27: `.git` was walked into once this became a published
+        # repository, and a fresh clone reported 28 unrecorded files that were
+        # git's own bookkeeping. An integrity record covers the artifacts, not
+        # the machinery that transported them.
+        dirs[:] = [d for d in dirs if d not in ("__pycache__", ".git")]
         raw = os.path.basename(base) == "openalex_raw"
         for name in sorted(files):
             if name in SKIP:

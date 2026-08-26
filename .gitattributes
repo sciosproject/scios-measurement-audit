@@ -1,0 +1,12 @@
+# Every file in this repository is byte-exact by design.
+#
+# 2026-08-27: the first push let git normalise line endings, and a fresh clone
+# reported `verify: FAIL | drift 40` — forty files whose bytes no longer matched
+# the hashes recorded for them. Nothing was wrong with the artifacts; git had
+# rewritten them on checkout. A reader's first command would have shown our own
+# integrity check declaring our own release corrupt.
+#
+# `-text` disables end-of-line conversion for everything. In a repository whose
+# entire claim is that recorded hashes still hold, a convenience that silently
+# edits files on checkout is not a convenience.
+* -text

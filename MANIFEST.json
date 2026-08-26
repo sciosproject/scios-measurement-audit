@@ -2,9 +2,16 @@
  "schema": "scios-funding/manifest/v1",
  "generated": "2026-08-27",
  "note": "Integrity record for THIS RELEASE. Every file shipped here is listed with its hash; `python manifest.py verify` recomputes them and fails on any drift. The working tree this was built from contains files that were deliberately not published, each with a stated reason; that tree's own manifest is identified below so the two records can be tied together.",
- "built_from_manifest_sha256": "43bc9c4027d36f57cf2efb38adbb2d0de5f62287893257de1d90e19e95a83e14",
- "count": 90,
+ "built_from_manifest_sha256": "5b74cd0364db2a81bad1625ddbaa4e201284a86d515d83cac772a2ec281bbd43",
+ "count": 91,
  "entries": [
+  {
+   "path": ".gitattributes",
+   "sha256": "af459a13d4065ce063524d169e00463f808643f277109b6fa32edaa027d8b11b",
+   "bytes": 649,
+   "content_addressed": false,
+   "publish": true
+  },
   {
    "path": "AUDIT_T01_BLEU.md",
    "sha256": "4a0e4b36e58772058508f9a49028cb292333587e39867554a952656a13db9ea8",
@@ -147,8 +154,8 @@
   },
   {
    "path": "manifest.py",
-   "sha256": "e6d071accfcedbf413504a64cc1481620f9dd3d8e0bf3e97bd00253b8cb2321c",
-   "bytes": 6064,
+   "sha256": "d265bb1bfac62a8e913db3ab11179d42a7fb3bf4ef037e5b33b226c597ffdb0b",
+   "bytes": 6361,
    "content_addressed": false,
    "publish": true
   },
