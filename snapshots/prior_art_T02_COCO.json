@@ -1,0 +1,30 @@
+{
+  "schema": "scios-funding/prior-art/v1",
+  "date": "2026-08-26",
+  "target": {"id": "W1861492603", "name": "Microsoft COCO"},
+  "recall_caveat": "Protocol recall measured at 0.33 (v1/v2, held-out control) and 0.00 (v3 template, held-out control). This list is certainly incomplete; absence from it is not evidence that something is unpublished. EXTERNAL_LEDGER §12-§13, §15.",
+  "openalex_protocol": {
+    "queries_read": 100,
+    "draws": ["94d1d8760b50a915", "b62240a6efd610fb"],
+    "index_totals": [24610, 43262],
+    "validity_critiques_surfaced": 0,
+    "note": "The OpenAlex protocol surfaced zero validity critiques for this target — consistent with its measured recall."
+  },
+  "general_search": {
+    "route": "general web search engine",
+    "query": "MS COCO dataset critique annotation errors label quality bias what the benchmark actually measures",
+    "surfaced": [
+      {"title": "Quality over quantity: a data-centric survey of annotation errors in object detection datasets", "about": "systematic annotation errors in object detection datasets incl. COCO"},
+      {"title": "How I found nearly 300,000 errors in MS COCO", "about": "reports 273,834 errors, ~37% of annotations"},
+      {"title": "Rethinking PASCAL-VOC and MS-COCO dataset for small object detection", "about": "labelling errors affecting small-object detection"},
+      {"title": "Exposing and Correcting the Gender Bias in Image Captioning Datasets and Models", "about": "gender bias in COCO captions"},
+      {"title": "ECCV Caption: Correcting False Negatives ... for MS-COCO", "about": "false negatives in image-caption associations"},
+      {"title": "Noisy Annotations in Semantic Segmentation", "about": "annotation noise in segmentation benchmarks"}
+    ]
+  },
+  "relation_to_our_case": {
+    "our_case": "T-02-a — the paper names three core problems it addresses and publishes baseline measurement for two of them",
+    "prior_art_class": "annotation quality, label error rate, demographic bias in labels",
+    "reading": "The prior art we surfaced concerns the QUALITY of the annotations. Our case concerns the SCOPE of the published claim against the published baseline. These are different defect classes. We do NOT conclude ours is new: our search recall is 0.33/0.00 and the word 'new' is prohibited without the scope that failed to find it."
+  }
+}

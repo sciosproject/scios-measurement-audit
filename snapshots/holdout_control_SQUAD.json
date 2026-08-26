@@ -1,0 +1,27 @@
+{
+  "schema": "scios-funding/holdout-control/v1",
+  "frozen": "2026-08-26",
+  "purpose": "EXTERNAL_LEDGER §12.5 — third held-out control, for measuring the recall of prior-art protocol v3. Frozen BEFORE v3 was designed or run.",
+  "instrument": {"id": "W2963748441", "name": "SQuAD",
+                 "why_this_one": "deterministic rule EXTERNAL_LEDGER §11.2(1): next in the frozen ranking after BLEU and ROUGE"},
+  "assembled_by": {
+    "route": "expert recall — named from the author's own knowledge of the literature, then each item existence-checked",
+    "why": "v3 IS the general-web-search route, so the control may not be assembled by general web search (it would measure the protocol against itself). It may not be assembled by OpenAlex queries either, since those are v1/v2. A third route is required, and recall is the one available.",
+    "date": "2026-08-26"
+  },
+  "items": [
+    {"n": 1, "title": "Adversarial Examples for Evaluating Reading Comprehension Systems", "year": 2017, "claim_about_instrument": "SQuAD scores do not survive distractor sentences appended to the passage"},
+    {"n": 2, "title": "Know What You Don't Know: Unanswerable Questions for SQuAD", "year": 2018, "claim_about_instrument": "SQuAD 1.1 omits unanswerable questions, so its score overstates comprehension"},
+    {"n": 3, "title": "How Much Reading Does Reading Comprehension Require? A Critical Investigation of Popular Benchmarks", "year": 2018, "claim_about_instrument": "passage-free and question-free baselines score far above chance"},
+    {"n": 4, "title": "What Makes Reading Comprehension Questions Easier?", "year": 2018, "claim_about_instrument": "a large share of questions are answerable by shallow heuristics"},
+    {"n": 5, "title": "Did the Model Understand the Question?", "year": 2018, "claim_about_instrument": "attribution shows models keying on question fragments rather than content"},
+    {"n": 6, "title": "Universal Adversarial Triggers for Attacking and Analyzing NLP", "year": 2019, "claim_about_instrument": "input-agnostic trigger tokens collapse SQuAD performance"}
+  ],
+  "n": 6,
+  "declared_limits": [
+    "Expert recall is bounded by what the author happens to know; it is biased toward well-known items and cannot include anything the author never read.",
+    "Existence-checking each item against an index does not make the index the assembly route, but it does mean every control item is index-visible — so the control cannot penalise a protocol for missing index-invisible work.",
+    "n=6 gives a weak lower bound on recall even at a perfect score (TARGET_SELECTION §11.2).",
+    "The class 'a validity review that exists and nobody named and no index surfaced' is absent by definition, so any measured recall is an UPPER bound (TARGET_SELECTION §17)."
+  ]
+}

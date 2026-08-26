@@ -1,0 +1,302 @@
+[
+ {
+  "id": "W4385245566",
+  "title": "Exploiting Generative AI to Scale up Intelligent Tutoring Systems",
+  "cited_by_count": 79074,
+  "publication_date": "2023-01-01"
+ },
+ {
+  "id": "W2896457183",
+  "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+  "cited_by_count": 46039,
+  "publication_date": "2018-10-11"
+ },
+ {
+  "id": "W2250539671",
+  "title": "Glove: Global Vectors for Word Representation",
+  "cited_by_count": 34025,
+  "publication_date": "2014-01-01"
+ },
+ {
+  "id": "W2963341956",
+  "title": "",
+  "cited_by_count": 33258,
+  "publication_date": "2019-01-01"
+ },
+ {
+  "id": "W1880262756",
+  "title": "Latent dirichlet allocation",
+  "cited_by_count": 27075,
+  "publication_date": "2003-03-01"
+ },
+ {
+  "id": "W2157331557",
+  "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+  "cited_by_count": 24966,
+  "publication_date": "2014-01-01"
+ },
+ {
+  "id": "W2101105183",
+  "title": "BLEU",
+  "cited_by_count": 21925,
+  "publication_date": "2001-01-01"
+ },
+ {
+  "id": "W1614298861",
+  "title": "Efficient Estimation of Word Representations in Vector Space",
+  "cited_by_count": 18167,
+  "publication_date": "2013-01-16"
+ },
+ {
+  "id": "W2153579005",
+  "title": "Distributed Representations of Words and Phrases and their Compositionality",
+  "cited_by_count": 18055,
+  "publication_date": "2013-10-16"
+ },
+ {
+  "id": "W2965373594",
+  "title": "HISTORIAE, History of Socio-Cultural Transformation as Linguistic Data Science. A Humanities Use Cas",
+  "cited_by_count": 17474,
+  "publication_date": "2019-07-26"
+ },
+ {
+  "id": "W2133564696",
+  "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+  "cited_by_count": 14617,
+  "publication_date": "2014-09-01"
+ },
+ {
+  "id": "W4292779060",
+  "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmologic",
+  "cited_by_count": 14310,
+  "publication_date": "2023-01-01"
+ },
+ {
+  "id": "W2081580037",
+  "title": "WordNet",
+  "cited_by_count": 14214,
+  "publication_date": "1995-11-01"
+ },
+ {
+  "id": "W1821462560",
+  "title": "Distilling the Knowledge in a Neural Network",
+  "cited_by_count": 14079,
+  "publication_date": "2015-03-09"
+ },
+ {
+  "id": "W1832693441",
+  "title": "Convolutional Neural Networks for Sentence Classification",
+  "cited_by_count": 13969,
+  "publication_date": "2014-01-01"
+ },
+ {
+  "id": "W2130942839",
+  "title": "Sequence to Sequence Learning with Neural Networks",
+  "cited_by_count": 13352,
+  "publication_date": "2014-09-10"
+ },
+ {
+  "id": "W2950577311",
+  "title": "Efficient Estimation of Word Representations in Vector Space",
+  "cited_by_count": 11714,
+  "publication_date": "2013-01-16"
+ },
+ {
+  "id": "W2970641574",
+  "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+  "cited_by_count": 11702,
+  "publication_date": "2019-01-01"
+ },
+ {
+  "id": "W2110485445",
+  "title": "Finding Structure in Time",
+  "cited_by_count": 11025,
+  "publication_date": "1990-03-01"
+ },
+ {
+  "id": "W1574901103",
+  "title": "Foundations of statistical natural language processing",
+  "cited_by_count": 9995,
+  "publication_date": "1999-01-01"
+ },
+ {
+  "id": "W2493916176",
+  "title": "Enriching Word Vectors with Subword Information",
+  "cited_by_count": 9889,
+  "publication_date": "2017-12-01"
+ },
+ {
+  "id": "W1978394996",
+  "title": "Term-weighting approaches in automatic text retrieval",
+  "cited_by_count": 9696,
+  "publication_date": "1988-01-01"
+ },
+ {
+  "id": "W2154851992",
+  "title": "DeepWalk",
+  "cited_by_count": 8656,
+  "publication_date": "2014-08-22"
+ },
+ {
+  "id": "W1902237438",
+  "title": "Effective Approaches to Attention-based Neural Machine Translation",
+  "cited_by_count": 8609,
+  "publication_date": "2015-01-01"
+ },
+ {
+  "id": "W4288089799",
+  "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text\\n Transformer",
+  "cited_by_count": 8346,
+  "publication_date": "2019-10-23"
+ },
+ {
+  "id": "W2154652894",
+  "title": "ROUGE: A Package for Automatic Evaluation of Summaries",
+  "cited_by_count": 8301,
+  "publication_date": "2004-07-25"
+ },
+ {
+  "id": "W2979826702",
+  "title": "Transformers: State-of-the-Art Natural Language Processing",
+  "cited_by_count": 8254,
+  "publication_date": "2020-01-01"
+ },
+ {
+  "id": "W2911489562",
+  "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+  "cited_by_count": 7331,
+  "publication_date": "2019-09-05"
+ },
+ {
+  "id": "W2962784628",
+  "title": "",
+  "cited_by_count": 7283,
+  "publication_date": null
+ },
+ {
+  "id": "W2123442489",
+  "title": "The Stanford CoreNLP Natural Language Processing Toolkit",
+  "cited_by_count": 7264,
+  "publication_date": "2014-01-01"
+ },
+ {
+  "id": "W2166706824",
+  "title": "Thumbs up?",
+  "cited_by_count": 7052,
+  "publication_date": "2002-01-01"
+ },
+ {
+  "id": "W2626778328",
+  "title": "Attention Is All You Need",
+  "cited_by_count": 6870,
+  "publication_date": "2025-08-23"
+ },
+ {
+  "id": "W2251939518",
+  "title": "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank",
+  "cited_by_count": 6832,
+  "publication_date": "2013-01-01"
+ },
+ {
+  "id": "W2097726431",
+  "title": "Opinion Mining and Sentiment Analysis",
+  "cited_by_count": 6832,
+  "publication_date": "2008-01-01"
+ },
+ {
+  "id": "W2964199361",
+  "title": "On the Properties of Neural Machine Translation: Encoder–Decoder Approaches",
+  "cited_by_count": 6675,
+  "publication_date": "2014-01-01"
+ },
+ {
+  "id": "W2963748441",
+  "title": "SQuAD: 100,000+ Questions for Machine Comprehension of Text",
+  "cited_by_count": 6420,
+  "publication_date": "2016-01-01"
+ },
+ {
+  "id": "W3133702157",
+  "title": "On the Dangers of Stochastic Parrots",
+  "cited_by_count": 6188,
+  "publication_date": "2021-03-01"
+ },
+ {
+  "id": "W2001082470",
+  "title": "Finding scientific topics",
+  "cited_by_count": 6073,
+  "publication_date": "2004-04-06"
+ },
+ {
+  "id": "W4323655724",
+  "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+  "cited_by_count": 6012,
+  "publication_date": "2023-03-09"
+ },
+ {
+  "id": "W2099813784",
+  "title": "VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text",
+  "cited_by_count": 5923,
+  "publication_date": "2014-05-16"
+ },
+ {
+  "id": "W3152893301",
+  "title": "Graph neural networks: A review of methods and applications",
+  "cited_by_count": 5781,
+  "publication_date": "2020-01-01"
+ },
+ {
+  "id": "W2525778437",
+  "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
+  "cited_by_count": 5667,
+  "publication_date": "2016-09-26"
+ },
+ {
+  "id": "W2174706414",
+  "title": "Probabilistic topic models",
+  "cited_by_count": 5619,
+  "publication_date": "2012-03-23"
+ },
+ {
+  "id": "W2079735306",
+  "title": "Framewise phoneme classification with bidirectional LSTM and other neural network architectures",
+  "cited_by_count": 5599,
+  "publication_date": "2005-07-01"
+ },
+ {
+  "id": "W179875071",
+  "title": "Recurrent neural network based language model",
+  "cited_by_count": 5429,
+  "publication_date": "2010-09-26"
+ },
+ {
+  "id": "W2604314403",
+  "title": "Modeling Relational Data with Graph Convolutional Networks",
+  "cited_by_count": 5222,
+  "publication_date": "2018-01-01"
+ },
+ {
+  "id": "W2117130368",
+  "title": "A unified architecture for natural language processing",
+  "cited_by_count": 5206,
+  "publication_date": "2008-01-01"
+ },
+ {
+  "id": "W2158899491",
+  "title": "Natural Language Processing (almost) from Scratch",
+  "cited_by_count": 5173,
+  "publication_date": "2011-03-02"
+ },
+ {
+  "id": "W2131744502",
+  "title": "Distributed Representations of Sentences and Documents",
+  "cited_by_count": 5120,
+  "publication_date": "2014-05-16"
+ },
+ {
+  "id": "W2155106456",
+  "title": "GroupLens",
+  "cited_by_count": 5044,
+  "publication_date": "1994-01-01"
+ }
+]

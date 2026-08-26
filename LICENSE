@@ -1,0 +1,59 @@
+This repository contains two kinds of material, licensed separately, plus
+third-party material that is licensed by neither of them.
+
+
+1. TEXT AND DATA WE WROTE  —  Creative Commons Attribution 4.0 International
+   ------------------------------------------------------------------------
+   Applies to: all .md documents, MANIFEST.json, cases.json, and the JSON draws
+   under snapshots/openalex_raw/ insofar as our selection and arrangement of
+   them is ours.
+
+   You are free to share and adapt this material for any purpose, including
+   commercially, provided you give appropriate credit, link to the license, and
+   indicate if changes were made.
+
+   Full text: https://creativecommons.org/licenses/by/4.0/
+
+   Attribution should make clear which statements are ours and which are yours.
+   The point of this work is the separation between what is claimed and what is
+   verified; an adaptation that blurs it defeats it.
+
+
+2. CODE WE WROTE  —  MIT License
+   -----------------------------
+   Applies to: every .py file in this repository.
+
+   Copyright (c) 2026 the SCIOS project
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+
+3. THIRD-PARTY PAPERS  —  NOT LICENSED HERE, AND NOT INCLUDED
+   ----------------------------------------------------------
+   The five audited papers are not redistributed in this repository, and neither
+   is our extracted text of them. They remain under whatever terms their
+   publishers and authors set.
+
+   SOURCES.md gives each paper's canonical URL together with the SHA-256 of the
+   PDF we read and of the text we extracted, so that anyone can obtain their own
+   copy and confirm it is byte-identical to ours.
+
+   Short quotations from those papers appear in the report and the audits, each
+   bound to its source and each verified mechanically against the original text
+   by quotecheck.py.

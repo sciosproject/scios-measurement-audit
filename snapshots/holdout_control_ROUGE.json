@@ -1,0 +1,27 @@
+{
+  "schema": "scios-funding/holdout-control/v1",
+  "frozen": "2026-08-26",
+  "purpose": "EXTERNAL_LEDGER §11 — held-out control for measuring the recall of prior-art protocol v2. Frozen BEFORE v2 was run against it.",
+  "instrument": {"id": "W2154652894", "name": "ROUGE",
+                 "why_this_one": "deterministic rule §11.2(1): highest-ranked eligible candidate after the current target"},
+  "assembled_by": {
+    "route": "general web search engine (WebSearch tool)",
+    "why": "§11.2(2) requires a route outside the protocol — a different corpus and a different retrieval path than the OpenAlex queries of §9.3/§10.4",
+    "query": "papers questioning validity of ROUGE metric summarization evaluation correlation with human judgments",
+    "date": "2026-08-26"
+  },
+  "items": [
+    {"n": 1, "title": "Revisiting Summarization Evaluation for Scientific Articles", "ref": "arXiv:1604.00400"},
+    {"n": 2, "title": "Neural Text Summarization: A Critical Evaluation", "ref": "arXiv:1908.08960"},
+    {"n": 3, "title": "Re-evaluating Evaluation in Text Summarization", "ref": "arXiv:2010.07100"},
+    {"n": 4, "title": "SummEval: Re-evaluating Summarization Evaluation", "ref": "arXiv:2007.12626"},
+    {"n": 5, "title": "OpinSummEval: Revisiting Automated Evaluation for Opinion Summarization", "ref": "arXiv:2310.18122"},
+    {"n": 6, "title": "Assessing the effectiveness of ROUGE as unbiased metric in Extractive vs. Abstractive summarization techniques", "ref": "ScienceDirect S1877750325000481"}
+  ],
+  "n": 6,
+  "declared_limits": [
+    "Assembled from one general web search on one date; a different query returns a different set.",
+    "n=6 gives a weak lower bound on recall even at perfect score (see TARGET_SELECTION §11.2).",
+    "The class 'a validity review that exists but no index surfaced and nobody named' is absent from this control by definition — so any measured recall is an UPPER bound (TARGET_SELECTION §17)."
+  ]
+}

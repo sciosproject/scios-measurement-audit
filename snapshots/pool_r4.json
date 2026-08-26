@@ -1,0 +1,302 @@
+[
+ {
+  "id": "W2194775991",
+  "title": "Deep Residual Learning for Image Recognition",
+  "cited_by_count": 227490,
+  "publication_date": "2016-06-01"
+ },
+ {
+  "id": "W2108598243",
+  "title": "ImageNet: A large-scale hierarchical image database",
+  "cited_by_count": 62964,
+  "publication_date": "2009-06-01"
+ },
+ {
+  "id": "W2151103935",
+  "title": "Distinctive Image Features from Scale-Invariant Keypoints",
+  "cited_by_count": 55762,
+  "publication_date": "2004-06-02"
+ },
+ {
+  "id": "W639708223",
+  "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+  "cited_by_count": 55516,
+  "publication_date": "2016-06-06"
+ },
+ {
+  "id": "W2097117768",
+  "title": "Going deeper with convolutions",
+  "cited_by_count": 47181,
+  "publication_date": "2015-06-01"
+ },
+ {
+  "id": "W1861492603",
+  "title": "Microsoft COCO: Common Objects in Context",
+  "cited_by_count": 43264,
+  "publication_date": "2014-01-01"
+ },
+ {
+  "id": "W2117539524",
+  "title": "ImageNet Large Scale Visual Recognition Challenge",
+  "cited_by_count": 40615,
+  "publication_date": "2015-04-10"
+ },
+ {
+  "id": "W2102605133",
+  "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+  "cited_by_count": 32120,
+  "publication_date": "2014-06-01"
+ },
+ {
+  "id": "W3138516171",
+  "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "cited_by_count": 32092,
+  "publication_date": "2021-10-01"
+ },
+ {
+  "id": "W2161969291",
+  "title": "Histograms of Oriented Gradients for Human Detection",
+  "cited_by_count": 32092,
+  "publication_date": "2005-07-27"
+ },
+ {
+  "id": "W2565639579",
+  "title": "Feature Pyramid Networks for Object Detection",
+  "cited_by_count": 29593,
+  "publication_date": "2017-07-01"
+ },
+ {
+  "id": "W2963150697",
+  "title": "Mask R-CNN",
+  "cited_by_count": 29463,
+  "publication_date": "2017-10-01"
+ },
+ {
+  "id": "W1536680647",
+  "title": "Fast R-CNN",
+  "cited_by_count": 28356,
+  "publication_date": "2015-12-01"
+ },
+ {
+  "id": "W2085261163",
+  "title": "Random sample consensus",
+  "cited_by_count": 25824,
+  "publication_date": "1981-06-01"
+ },
+ {
+  "id": "W3118608800",
+  "title": "Learning Multiple Layers of Features from Tiny Images",
+  "cited_by_count": 25433,
+  "publication_date": "2024-01-01"
+ },
+ {
+  "id": "W2412782625",
+  "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Con",
+  "cited_by_count": 22576,
+  "publication_date": "2017-04-27"
+ },
+ {
+  "id": "W2031489346",
+  "title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "cited_by_count": 19934,
+  "publication_date": "2009-09-08"
+ },
+ {
+  "id": "W2570343428",
+  "title": "YOLO9000: Better, Faster, Stronger",
+  "cited_by_count": 19205,
+  "publication_date": "2017-07-01"
+ },
+ {
+  "id": "W2164598857",
+  "title": "Rapid object detection using a boosted cascade of simple features",
+  "cited_by_count": 18330,
+  "publication_date": "2005-08-24"
+ },
+ {
+  "id": "W2613718673",
+  "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+  "cited_by_count": 18227,
+  "publication_date": "2015-06-04"
+ },
+ {
+  "id": "W2124386111",
+  "title": "Object recognition from local scale-invariant features",
+  "cited_by_count": 16284,
+  "publication_date": "1999-01-01"
+ },
+ {
+  "id": "W2560023338",
+  "title": "Pyramid Scene Parsing Network",
+  "cited_by_count": 15816,
+  "publication_date": "2017-07-01"
+ },
+ {
+  "id": "W2121947440",
+  "title": "Normalized cuts and image segmentation",
+  "cited_by_count": 15768,
+  "publication_date": "2000-01-01"
+ },
+ {
+  "id": "W2163352848",
+  "title": "Multiresolution gray-scale and rotation invariant texture classification with local binary patterns",
+  "cited_by_count": 15371,
+  "publication_date": "2002-07-01"
+ },
+ {
+  "id": "W2964309882",
+  "title": "Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation",
+  "cited_by_count": 14911,
+  "publication_date": "2018-01-01"
+ },
+ {
+  "id": "W1677409904",
+  "title": "SURF: Speeded Up Robust Features",
+  "cited_by_count": 14671,
+  "publication_date": "2006-01-01"
+ },
+ {
+  "id": "W4293584584",
+  "title": "A Multi-Modal Distributed Real-Time IoT System for Urban Traffic Control (Invited Paper)",
+  "cited_by_count": 14377,
+  "publication_date": "2024-01-01"
+ },
+ {
+  "id": "W3097096317",
+  "title": "Robust Real-Time Face Detection",
+  "cited_by_count": 14233,
+  "publication_date": "2004-01-22"
+ },
+ {
+  "id": "W2138451337",
+  "title": "Eigenfaces for Recognition",
+  "cited_by_count": 13801,
+  "publication_date": "1991-01-01"
+ },
+ {
+  "id": "W2119605622",
+  "title": "Speeded-Up Robust Features (SURF)",
+  "cited_by_count": 13450,
+  "publication_date": "2008-01-07"
+ },
+ {
+  "id": "W2340897893",
+  "title": "The Cityscapes Dataset for Semantic Urban Scene Understanding",
+  "cited_by_count": 12182,
+  "publication_date": "2016-06-01"
+ },
+ {
+  "id": "W2118877769",
+  "title": "An Iterative Image Registration Technique with an Application to Stereo Vision",
+  "cited_by_count": 11613,
+  "publication_date": "1981-08-24"
+ },
+ {
+  "id": "W4386076325",
+  "title": "YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors",
+  "cited_by_count": 11555,
+  "publication_date": "2023-06-01"
+ },
+ {
+  "id": "W2109255472",
+  "title": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+  "cited_by_count": 11532,
+  "publication_date": "2015-01-09"
+ },
+ {
+  "id": "W2155893237",
+  "title": "Caffe",
+  "cited_by_count": 11220,
+  "publication_date": "2014-11-03"
+ },
+ {
+  "id": "W2295107390",
+  "title": "Learning Deep Features for Discriminative Localization",
+  "cited_by_count": 10999,
+  "publication_date": "2016-06-01"
+ },
+ {
+  "id": "W2117228865",
+  "title": "ORB: An efficient alternative to SIFT or SURF",
+  "cited_by_count": 10576,
+  "publication_date": "2011-11-01"
+ },
+ {
+  "id": "W2168356304",
+  "title": "Object Detection with Discriminatively Trained Part-Based Models",
+  "cited_by_count": 10099,
+  "publication_date": "2009-09-24"
+ },
+ {
+  "id": "W2612445135",
+  "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+  "cited_by_count": 9885,
+  "publication_date": "2017-04-17"
+ },
+ {
+  "id": "W2963125010",
+  "title": "ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices",
+  "cited_by_count": 9246,
+  "publication_date": "2018-06-01"
+ },
+ {
+  "id": "W2118246710",
+  "title": "SLIC Superpixels Compared to State-of-the-Art Superpixel Methods",
+  "cited_by_count": 9231,
+  "publication_date": "2012-05-30"
+ },
+ {
+  "id": "W2963857746",
+  "title": "Path Aggregation Network for Instance Segmentation",
+  "cited_by_count": 9124,
+  "publication_date": "2018-06-01"
+ },
+ {
+  "id": "W3034971973",
+  "title": "EfficientDet: Scalable and Efficient Object Detection",
+  "cited_by_count": 8861,
+  "publication_date": "2020-06-01"
+ },
+ {
+  "id": "W2121927366",
+  "title": "A database of human segmented natural images and its application to evaluating segmentation algorith",
+  "cited_by_count": 8097,
+  "publication_date": "2002-11-13"
+ },
+ {
+  "id": "W2162915993",
+  "title": "Beyond Bags of Features: Spatial Pyramid Matching for Recognizing Natural Scene Categories",
+  "cited_by_count": 7975,
+  "publication_date": "2006-07-10"
+ },
+ {
+  "id": "W4312443924",
+  "title": "A ConvNet for the 2020s",
+  "cited_by_count": 7764,
+  "publication_date": "2022-06-01"
+ },
+ {
+  "id": "W2165558283",
+  "title": "Multidimensional binary search trees used for associative searching",
+  "cited_by_count": 7575,
+  "publication_date": "1975-09-01"
+ },
+ {
+  "id": "W2123845384",
+  "title": "Space/time trade-offs in hash coding with allowable errors",
+  "cited_by_count": 7570,
+  "publication_date": "1970-07-01"
+ },
+ {
+  "id": "W2159498975",
+  "title": "Visual pattern recognition by moment invariants",
+  "cited_by_count": 7557,
+  "publication_date": "1962-02-01"
+ },
+ {
+  "id": "W1514535095",
+  "title": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+  "cited_by_count": 7522,
+  "publication_date": "2015-02-10"
+ }
+]

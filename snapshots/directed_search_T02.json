@@ -1,0 +1,23 @@
+{
+  "schema": "scios-funding/directed-search/v1",
+  "date": "2026-08-26",
+  "kind": "DIRECTED — human-steered, not a protocol. EXTERNAL_LEDGER §17.",
+  "target": {"id": "W1861492603", "name": "Microsoft COCO", "case": "T-02-a"},
+  "why_directed_is_allowed_here": "Direction biases toward FINDING. That bias is disqualifying when establishing that a defect exists, and load-bearing when establishing that no prior work states it: a directed search that finds nothing is stronger evidence of absence than a blind protocol that finds nothing.",
+  "query": "COCO benchmark claims contextual reasoning but no baseline metric measures context scene understanding scope gap",
+  "returned": [
+    "COCO-Text: Dataset and Benchmark for Text Detection and Recognition in Natural Images",
+    "Microsoft COCO: Common Objects in Context (the paper itself, three mirrors)",
+    "The Artificial Intelligence Cognitive Examination: A Survey on the Evolution of Multimodal Evaluation from Recognition to Reasoning",
+    "Learning to See the Elephant in the Room: Self-Supervised Context Reasoning in Humans and AI",
+    "Semantic Segmentation based Scene Understanding in Autonomous Vehicles",
+    "Detecting out-of-context objects using contextual cues",
+    "Identifying and Benchmarking Natural Out-of-Context Prediction Problems"
+  ],
+  "result": "No published work stating the specific claim-scope gap of T-02-a was surfaced. Adjacent work exists on out-of-context detection and on context reasoning as a research problem, but none of it is a statement that COCO names three problems and publishes baseline measurement for two.",
+  "not_claimed": [
+    "This is not a recall measurement. A directed search has no measured recall and none is asserted for it.",
+    "The protocol recall of 0.33 does NOT transfer to this search, in either direction.",
+    "The word 'new' is not used."
+  ]
+}

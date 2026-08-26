@@ -1,0 +1,51 @@
+{
+  "schema": "scios-funding/v3-run/v1",
+  "date": "2026-08-26",
+  "protocol": "v3 — general web search engine (WebSearch tool), the route EXTERNAL_LEDGER §12.5 was directed to try",
+  "control": {"file": "docs/funding/snapshots/holdout_control_SQUAD.json",
+              "sha256": "bad3198e52e9f3f742846d43b0948b7cdf988306854ec04828c28135560f3b67",
+              "frozen_before_this_run": true},
+  "queries": [
+    {
+      "tag": "q1",
+      "kind": "template — instrument-agnostic, written without reference to the control contents",
+      "text": "papers questioning the validity of SQuAD benchmark critique limitations",
+      "returned": [
+        "RPC-Bench: A Fine-grained Benchmark for Research Paper Comprehension",
+        "Can We Trust AI Benchmarks? An Interdisciplinary Review of Current Issues in AI Evaluation",
+        "EvalSafetyGap: A Hybrid Survey and Conceptual Framework for LLM Evaluation-Safety Failures",
+        "Measuring what Matters: Construct Validity in Large Language Model Benchmarks",
+        "Are We Learning Yet? A Meta-Review of Evaluation",
+        "PaperQA: Retrieval-Augmented Generative Agent for Scientific Research",
+        "Can LLMs Identify Critical Limitations within Scientific Research?",
+        "BEYOND ACCURACY: UNDERSTANDING MODEL PERFORMANCE ON SQUAD 2.0 CHALLENGES",
+        "RealCritic: Towards Effectiveness-Driven Evaluation of Language Model Critiques",
+        "Automated Benchmark Auditing for AI Agents and Large Language Models"
+      ],
+      "control_items_found": []
+    },
+    {
+      "tag": "q2",
+      "kind": "CONTAMINATED — written AFTER freezing the control and using vocabulary taken from the control items themselves ('adversarial examples', 'passage-free baseline'). Not a blind test of the protocol.",
+      "text": "SQuAD reading comprehension adversarial examples passage-free baseline models do not understand",
+      "returned": [
+        "Bridging the Gap between Language Model and Reading Comprehension",
+        "Adversarial Examples for Evaluating Reading Comprehension Systems (ResearchGate)",
+        "Attention-Guided Answer Distillation for Machine Reading Comprehension",
+        "Adversarial Examples for Evaluating Reading Comprehension Systems (ACL Anthology D17-1215)",
+        "Toward Adversarial Training on Contextualized Language Representation",
+        "The Stanford Question Answering Dataset (SQuAD explorer)",
+        "Frustratingly Poor Performance of Reading Comprehension Models on Non-adversarial Examples",
+        "GitHub - kkteru/reading-comprehension",
+        "Robust Reading Comprehension with Linguistic Constraints via Posterior Regularization",
+        "Adversarial Attacks and Defenses in Images, Graphs and Text: A Review"
+      ],
+      "control_items_found": [1]
+    }
+  ],
+  "result": {
+    "clean_recall_q1_only": "0 / 6 = 0.000",
+    "recall_including_contaminated_q2": "1 / 6 = 0.167",
+    "reading": "The contaminated query can only help, so 1/6 is an UPPER bound on what a blind v3 would have achieved."
+  }
+}

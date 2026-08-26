@@ -1,0 +1,62 @@
+{
+  "schema": "scios-defect-portfolio/cases/v1",
+  "generated": "2026-08-26",
+  "criterion": {
+    "file": "docs/funding/COUNTING_CRITERION.md",
+    "sha256": "af87e0bd7215d63d20a2d1854ce0f4e244c8470ae7b3536c7b549656933a9dd3",
+    "sections_frozen": "1-14"
+  },
+  "classification_is_human_judgement": true,
+  "note": "Class A/B is a human reading of frozen prose criteria. No program derives it. This list is what makes that judgement recountable: every case carries the file and line a reader can open, and the number that settles field 2.",
+  "totals": {"A": 17, "B": 14, "total": 31},
+  "cases": [
+    {"id": "A01", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 764, "claim": "null model represents absence of signal", "metric": "90.7 vs 62.9 -> 0.000", "reversed_announced_verdict": false},
+    {"id": "A02", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 771, "claim": "surprise measures deviation magnitude", "metric": "factor 2; zero at 15% despite 4.8 sigma", "reversed_announced_verdict": false},
+    {"id": "A03", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1021, "claim": "battery tests the model on realistic geometry", "metric": "15 points vs 40-64 quarter-octave; precision 0.9732 -> 0.3952", "reversed_announced_verdict": true},
+    {"id": "A04", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1022, "claim": "measurement runs against the system", "metric": "plugin-only 0.3952 vs engine 0.6304", "reversed_announced_verdict": true},
+    {"id": "A05", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1079, "claim": "battery tests a three-level staircase", "metric": "third step at 2^24 = last measured point; fitter needs >=3 points per level", "reversed_announced_verdict": true},
+    {"id": "A06", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1000, "claim": "noise ladder calibrates all worlds alike", "metric": "amplitudes differ 16x (~5300 vs ~320); candidate recall 0.757 -> 0.917", "reversed_announced_verdict": false},
+    {"id": "A07", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1194, "claim": "C1 has a documented bound that can be found", "metric": "32768 = 2^15 = first measured point", "reversed_announced_verdict": true},
+    {"id": "A08", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1471, "claim": "G2 measures the system's capability", "metric": "0% of 0 runs written as 0.0; C1 had 100% recall an hour earlier", "reversed_announced_verdict": true},
+    {"id": "A09", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1728, "claim": "C3 is readable from its settings", "metric": "2 settings vs observer minimum 4 and three-way split 9; became 24", "reversed_announced_verdict": true},
+    {"id": "A10", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1731, "claim": "G1 measures integrity", "metric": "0 campaigns read as perfect integrity", "reversed_announced_verdict": true},
+    {"id": "A11", "class": "A", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1792, "claim": "the C2 survey reaches the phenomenon", "metric": "survey stops at 64; phenomenon at 512", "reversed_announced_verdict": true},
+    {"id": "A12", "class": "A", "file": "docs/plan/58_STAGE2_DISCOVERY_PREREG.md", "line": 158, "claim": "the U3 survey reaches what it is asked about", "metric": "stops at 55108 = 10.5% of length; 2.4x then 8.5x beyond", "reversed_announced_verdict": true},
+    {"id": "A13", "class": "A", "file": "docs/plan/59_TRUNCATION_BLINDNESS_PREREG.md", "line": 217, "claim": "the C4 survey reaches the phenomenon and no further", "metric": "flat within 1.4 noise units after stopping at 323, was 79.5", "reversed_announced_verdict": false},
+    {"id": "A14", "class": "A", "file": "docs/plan/61_ASTRO_FEASIBILITY.md", "line": 31, "claim": "every period in the attribution table lies inside its grid", "metric": "330.07 and 267.28 days against a 150-day ceiling", "reversed_announced_verdict": false},
+    {"id": "A15", "class": "A", "file": "docs/plan/63_HARMONIC_PREREG.md", "line": 277, "claim": "the grid reaches the true period", "metric": "relative error 3.1e-5; grid point cannot reach 1.68", "reversed_announced_verdict": false},
+    {"id": "A16", "class": "A", "file": "docs/plan/64_THRESHOLD_ESTIMATOR_PREREG.md", "line": 126, "claim": "the estimator yields a consistent threshold", "metric": "|min|/|max| = 9.52 against a <=1 requirement; 2.68 at n=20 rising to 9.52 at n=60", "reversed_announced_verdict": true},
+    {"id": "A17", "class": "A", "file": "docs/plan/65_RESIDUE_VETTING.md", "line": 369, "claim": "difference imaging goes inside the centroid check bound", "metric": "1.60-1.83 arcsec vs 1.8-2.4 arcsec", "reversed_announced_verdict": false},
+
+    {"id": "B01", "class": "B", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 710, "claim": "fairness check: equal work across settings", "metric": "4KB pays 4096x the interpreter cost of 16MB; artefact cliff 2.41 -> 0.21 ns", "reversed_announced_verdict": false},
+    {"id": "B02", "class": "B", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1192, "claim": "for N0, silence counts as success", "metric": "3 N0 worlds 100% silent read as 0/3 instead of 3/3", "reversed_announced_verdict": true},
+    {"id": "B03", "class": "B", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1077, "claim": "the world named power is a power law", "metric": "23 true claims scored false", "reversed_announced_verdict": true},
+    {"id": "B04", "class": "B", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1193, "claim": "cost exponent criterion for C7/C8", "metric": "total-cost exponent is 1+b, not b; C8 passed by 0.0103 by chance", "reversed_announced_verdict": true},
+    {"id": "B05", "class": "B", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1277, "claim": "any value in the arc (0, 13.40) gives the same recall", "metric": "13.40 came from the weakest seed, not the weakest catalogued effect; C7 fell at 10", "reversed_announced_verdict": true},
+    {"id": "B06", "class": "B", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1774, "classification_example_line": 1793, "claim": "C3 answer-key label: axis=1 faster than axis=0 for a row-major array", "metric": "C order axis=0 3.43 ms vs axis=1 11.49 ms; F order mirrored 11.46 vs 3.46 — a 3.3x symmetric inversion", "reversed_announced_verdict": true},
+    {"id": "B07", "class": "B", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 637, "claim": "the gate compares a model against its data", "metric": "residual space compared to raw data; rejected 12 of 12", "reversed_announced_verdict": false},
+    {"id": "B08", "class": "B", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 638, "claim": "the metric reads the staircase bounds", "metric": "reads one breakpoint where the model names several; 0/12 then 1/12", "reversed_announced_verdict": false},
+    {"id": "B09", "class": "B", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 639, "claim": "precision = bounds / claims", "metric": "2.20, a ratio above one", "reversed_announced_verdict": false},
+    {"id": "B10", "class": "B", "file": "docs/plan/61_ASTRO_FEASIBILITY.md", "line": 33, "claim": "the attribution table counts distinct known signals", "metric": "relative difference 8e-6 against a 3e-3 tolerance, 375x; denominator 192 vs 191 distinguishable", "reversed_announced_verdict": false},
+    {"id": "B11", "class": "B", "file": "docs/plan/62_PERIOD_REFINEMENT_PREREG.md", "line": 83, "claim": "the scale-audit record attests to this machine", "metric": "key has 5 components, refinement is none of them", "reversed_announced_verdict": false},
+    {"id": "B12", "class": "B", "file": "docs/plan/64_THRESHOLD_ESTIMATOR_PREREG.md", "line": 165, "claim": "R2/H2 test the proposal", "metric": "demanded FAR = 0 where alpha=0.01 expects 0.60; 0.99^60 = 0.5472", "reversed_announced_verdict": true},
+    {"id": "B13", "class": "B", "file": "docs/plan/65_RESIDUE_VETTING.md", "line": 305, "claim": "the vetting thresholds separate real from spurious", "metric": "wings/core median of confirmed planets 0.80, p95 1.28, limit set at 0.85; rejects 45% (62 of 113 pass)", "reversed_announced_verdict": true},
+    {"id": "B14", "class": "B", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 641, "claim": "load allocation: each setting performs the same work", "metric": "3.4x variance in touch count after densification", "reversed_announced_verdict": false}
+  ],
+  "excluded": [
+    {"rule": "a", "what": "C1 reaching the machine memory ceiling", "why": "limit declared in advance under a rule that anticipated both branches", "file": "docs/plan/59_TRUNCATION_BLINDNESS_PREREG.md", "line": 228},
+    {"rule": "c", "what": "the driver crashes when the mind rejects a lens", "why": "cannot be shown except by running", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 640},
+    {"rule": "d", "what": "one edge read from a claim describing three", "why": "no explicit number in its source", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 1076},
+    {"rule": "d", "what": "W-6 recomputes the formula by hand", "why": "no explicit number in its source", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 642},
+    {"rule": "d", "what": "refinement always on with no switch", "why": "no explicit number in its source", "file": "docs/plan/62_PERIOD_REFINEMENT_PREREG.md", "line": 92},
+    {"rule": "gate1", "what": "comparing 0.8732 against 0.9688 from a different battery", "why": "an inference of mine, not one of the six instrument kinds", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 925},
+    {"rule": "gate1", "what": "duplicate section numbering in plan/55", "why": "document numbering is not a measuring instrument", "file": "docs/plan/55_SYSTEMS_FIELD_DESIGN.md", "line": 710}
+  ],
+  "validator_should_check": [
+    "every cases[].file exists and cases[].line is within it",
+    "every cases[].metric contains at least one numeral",
+    "no duplicate (file, line) pair across cases[]",
+    "counts by class equal totals.A and totals.B, and their sum equals totals.total",
+    "criterion.sha256 matches the current hash of criterion.file"
+  ]
+}
