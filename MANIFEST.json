@@ -1,16 +1,16 @@
 {
  "schema": "scios-funding/manifest/v1",
- "generated": "2026-08-27",
- "note": "Integrity record for THIS RELEASE. Every file shipped here is listed with its hash; `python manifest.py verify` recomputes them and fails on any drift. The working tree this was built from contains files that were deliberately not published, each with a stated reason; that tree's own manifest is identified below so the two records can be tied together.",
- "built_from_manifest_sha256": "5b74cd0364db2a81bad1625ddbaa4e201284a86d515d83cac772a2ec281bbd43",
- "count": 91,
+ "generated": "2026-08-26",
+ "note": "Raw draws are protected at build time by content-addressed filenames. Derived files are protected at record time by this manifest. Any cited file must appear here with its hash. This is an INTEGRITY record, not a publish list: build a release from entries with publish=true only. Publication is opt-in; anything not on the allow-list is withheld with a stated reason.",
+ "count": 93,
  "entries": [
   {
    "path": ".gitattributes",
    "sha256": "af459a13d4065ce063524d169e00463f808643f277109b6fa32edaa027d8b11b",
    "bytes": 649,
    "content_addressed": false,
-   "publish": true
+   "publish": false,
+   "withheld_because": "not on the publish allow-list"
   },
   {
    "path": "AUDIT_T01_BLEU.md",
@@ -32,6 +32,14 @@
    "bytes": 11058,
    "content_addressed": false,
    "publish": true
+  },
+  {
+   "path": "AUDIT_T06_ROUGE.md",
+   "sha256": "1c25989034fe01a9287b458cd6e35d05672a64feb6563ae730ccdd535674019f",
+   "bytes": 8929,
+   "content_addressed": false,
+   "publish": false,
+   "withheld_because": "not on the publish allow-list"
   },
   {
    "path": "COUNTING_CRITERION.md",
@@ -73,14 +81,16 @@
    "sha256": "b1973814d0104e38d623a253227b2b8fa41154bebec67a3325e9540ccddd2e4b",
    "bytes": 2865,
    "content_addressed": false,
-   "publish": true
+   "publish": false,
+   "withheld_because": "not on the publish allow-list"
   },
   {
    "path": "README.md",
    "sha256": "0a98572c123ffe61135a3787f2b1f7090117fe1f21bdb2bf83099074721b98b2",
    "bytes": 5547,
    "content_addressed": false,
-   "publish": true
+   "publish": false,
+   "withheld_because": "not on the publish allow-list"
   },
   {
    "path": "REPORT_01_WHAT_WE_EXCLUDED.md",
@@ -94,7 +104,8 @@
    "sha256": "0a7918f27ae719db5de3eb6e7372ebd84136810c6b2b9b2896ec739ea29b7586",
    "bytes": 1891,
    "content_addressed": false,
-   "publish": true
+   "publish": false,
+   "withheld_because": "not on the publish allow-list"
   },
   {
    "path": "TARGET_SELECTION.md",
@@ -242,6 +253,14 @@
    "bytes": 5621,
    "content_addressed": false,
    "publish": true
+  },
+  {
+   "path": "snapshots/d8100065f4ed5134_ROUGE_W04-1013.pdf",
+   "sha256": "d8100065f4ed5134fcde1a3e8689be0c05c4624d9580128109c576ed1d8a922e",
+   "bytes": 77520,
+   "content_addressed": false,
+   "publish": false,
+   "withheld_because": "third-party paper — not ours to redistribute (see SOURCES.md)"
   },
   {
    "path": "snapshots/directed_search_T02.json",
